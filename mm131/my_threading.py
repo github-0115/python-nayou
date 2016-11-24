@@ -43,7 +43,7 @@ def downloadPic(thread, url, count, i, k, pic_count):
     pic = urllib2.urlopen(url)
     buf = pic.read()
     f = open(
-        'F:\sexy\mmrentiyishu' + '/' + str(i) + '_' + str(k + 1) + '_' + str(pic_count) + '_' + str(count) + '.jpg',
+        'F:\sexy\mm196bb' + '/' + str(i) + '_' + str(k + 1) + '_' + str(pic_count) + '_' + str(count) + '.jpg',
         "wb")
     f.write(buf)
     f.close()
